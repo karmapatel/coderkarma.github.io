@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Website Icons -->
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeWithKarma</title>
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="prism.css">
+  </head>
+  <body id="h">
+    
+    <!-- nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cheetsheets</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html">Form</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Maker of this website
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Karma Patel &</a></li>
+                  <li><a class="dropdown-item" href="#">Team</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="co.html">Contact Owner</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!---- main ------>
+
+        <div class="container">
+          <ol>
+            <li><span id="sp">html Boilerplate:</span>
+              <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Document&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    
+                &lt;/body&gt;
+                &lt;/html&gt;</code></pre>
+            </li>
+            <li><span id="sp">Swiggy app html file</span>
+              <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                  &lt;meta charset="UTF-8"&gt;
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                  &lt;title&gt;Food Zone&lt;/title&gt;
+                  &lt;link rel="stylesheet" href="style.css"&gt;
+                
+                  &lt;link rel="preconnect" href="https://fonts.gstatic.com"&gt;
+                &lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"&gt;
+                
+                &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
+                
+                &lt;/head&gt;
+                
+                &lt;body&gt;
+                  &lt;!-------- navigation with logo --------&gt;
+                
+                  &lt;div class="header"&gt;
+                    &lt;div class="container"&gt;
+                    
+                      &lt;div class="navbar"&gt;
+                        &lt;div class="logo"&gt;
+                          &lt;img src="logo.jpg" width="150px"&gt;
+                        &lt;/div&gt;
+                
+                          &lt;nav&gt;
+                            &lt;ul id="MenuItems"&gt;
+                              &lt;li&gt;&lt;a href="menu.html"&gt;Other Restaurant&lt;/a&gt;&lt;/li&gt;
+                              &lt;li&gt;&lt;a href="inst.html"&gt;Instructions&lt;/a&gt;&lt;/li&gt;
+                              &lt;li&gt;&lt;a href="track.html"&gt;Track Your Order&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                          &lt;/nav&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;hr&gt;
+                &lt;!-- address --&gt;
+                &lt;form method="get"&gt;
+                &lt;input type="text" name="" id="txt" placeholder="Enter Address" autocomplete="off"&gt;
+                &lt;button class="btn"&gt;Submit&lt;/button&gt;
+                &lt;/form&gt;
+                &lt;!---------- trends -------&gt;
+                
+                  &lt;div class="small-container"&gt;
+                    &lt;h3&gt;Popular Restaurants&lt;/h3&gt;
+                    &lt;hr class="line"&gt;
+                    &lt;div class="row"&gt;
+                      &lt;img src="mcd.png" width="70px" id="n"&gt;
+                      &lt;img src="dom.png" width="70px" id="n"&gt;
+                      &lt;img src="sb.png" width="70px" id="n"&gt;
+                      &lt;img src="frank.png" width="70px" id="n"&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  
+                &lt;!------- hotel info -------&gt;
+                
+                &lt;div class="testimonial" id="test"&gt;
+                    &lt;div class="small-container2"&gt;
+                      &lt;div class="row2"&gt;
+                        &lt;h3&gt;
+                          Near You
+                        &lt;/h3&gt;
+                        &lt;hr&gt;
+                        &lt;div class="col-3"&gt;
+                          &lt;img src="mcd.png" width="70px"&gt;
+                          &lt;p&gt;McDonald's&lt;/p&gt;
+                          &lt;div class="rating"&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star-o"&gt;&lt;/i&gt;
+                          &lt;/div&gt;
+                          &lt;a href="mcd.html"&gt;&lt;button class="btn"&gt;Order Now&lt;/button&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                
+                &lt;!--- ----&gt;
+                
+                &lt;div class="testimonial"&gt;
+                    &lt;div class="small-container2"&gt;
+                      &lt;div class="row2"&gt;
+                        &lt;div class="col-3"&gt;
+                          &lt;img src="dom.png" width="70px"&gt;
+                          &lt;p&gt;Domino's&lt;/p&gt;
+                          &lt;div class="rating"&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star-half"&gt;&lt;/i&gt;
+                          &lt;/div&gt;
+                          &lt;a href="dom.html"&gt;&lt;button class="btn"&gt;Order Now&lt;/button&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                
+                &lt;!--- ---&gt;
+                
+                &lt;div class="testimonial"&gt;
+                    &lt;div class="small-container2"&gt;
+                      &lt;div class="row2"&gt;
+                        &lt;div class="col-3"&gt;
+                          &lt;img src="sb.png" width="70px"&gt;
+                          &lt;p&gt;StarBucks&lt;/p&gt;
+                          &lt;div class="rating"&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star-o"&gt;&lt;/i&gt;
+                          &lt;/div&gt;
+                          &lt;a href="sb.html"&gt;&lt;button class="btn"&gt;Order Now&lt;/button&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                
+                &lt;!---- ----&gt;
+                
+                &lt;div class="testimonial"&gt;
+                    &lt;div class="small-container2"&gt;
+                      &lt;div class="row2"&gt;
+                        &lt;div class="col-3"&gt;
+                          &lt;img src="frank.png" width="70px"&gt;
+                          &lt;p&gt;Frankie Station&lt;/p&gt;
+                          &lt;div class="rating"&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                            &lt;i class="fa fa-star"&gt;&lt;/i&gt;
+                          &lt;/div&gt;
+                          &lt;a href="frank.html"&gt;&lt;button class="btn"&gt;Order Now&lt;/button&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                
+                &lt;!---------- footer --------&gt;
+                
+                
+                
+                  &lt;div class="footer"&gt;
+                    &lt;div class="container"&gt;
+                      &lt;div class="row"&gt;
+                        &lt;div class="footer-col-1"&gt;
+                          &lt;h3&gt;Download Our App&lt;/h3&gt;
+                          &lt;p&gt;Download App for Android and IOS mobile phone&lt;/p&gt;
+                          &lt;div class="app-logo"&gt;
+                            &lt;img src="playstore.png"&gt;
+                            &lt;img src="appstore.png"&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="footer-col-2"&gt;
+                          &lt;img src="logo.jpg" width="150px"&gt;
+                          &lt;p&gt;Our Purpose Is To Deliver Best Food At Your Door. &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class="footer-col-3"&gt;
+                          &lt;h3&gt;Usefull Links&lt;/h3&gt;
+                          &lt;ul&gt;
+                            &lt;li&gt;Coupons&lt;/li&gt;
+                            &lt;li&gt;Help And Support&lt;/li&gt;
+                            &lt;li&gt;Return Policy&lt;/li&gt;
+                            &lt;li&gt;Discounts Available&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+                        &lt;div class="footer-col-4"&gt;
+                          &lt;h3&gt;Follow us on&lt;/h3&gt;
+                          &lt;ul&gt;
+                            &lt;li&gt;Facebook&lt;/li&gt;
+                            &lt;li&gt;Twitter&lt;/li&gt;
+                            &lt;li&gt;Instagram&lt;/li&gt;
+                            &lt;li&gt;Youtube&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;hr&gt;
+                      &lt;p class="copyright"&gt;Copyright 2020 - Food Zone&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                
+                
+                
+                
+                &lt;/body&gt;
+                &lt;/html&gt;</code></pre>
+            </li>
+
+            <li><span id="sp">Swiggy App hotel detail html file</span>
+              <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                  &lt;meta charset="UTF-8"&gt;
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                  &lt;title&gt;Menu&lt;/title&gt;
+                  &lt;link rel="stylesheet" href="style.css"&gt;
+                
+                  &lt;link rel="preconnect" href="https://fonts.gstatic.com"&gt;
+                &lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"&gt;
+                
+                &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
+                
+                &lt;/head&gt;
+                &lt;body&gt;
+                
+                  &lt;!-----------------header --------------&gt;
+                  
+                
+                  &lt;div class="header2"&gt;
+                    &lt;div class="container"&gt;
+                    
+                      &lt;div class="navbar"&gt;
+                        &lt;div class="logo"&gt;
+                          &lt;img src="logo.jpg" width="150px"&gt;
+                        &lt;/div&gt;
+                
+                          &lt;nav&gt;
+                            &lt;ul id="MenuItems"&gt;
+                              &lt;li&gt;&lt;a href="menu.html"&gt;Restaurants&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                          &lt;/nav&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;hr&gt;
+                
+                
+                &lt;!--------------------------------------------- INFORMATION -----------------------------------------------&gt;
+                
+                &lt;div class="small-container3"&gt;
+                    &lt;div class="row"&gt;
+                      &lt;div class="col-2"&gt;
+                        &lt;img src="hav.jpg"&gt;
+                      
+                      
+                        &lt;h2&gt; Hoco Eatry &lt;/h2&gt;
+                        &lt;input type="text" placeholder="Item Name and Piece"&gt;
+                        &lt;a href=""&gt;&lt;button class="btn"&gt; Place Order&lt;/button&gt;&lt;/a&gt;
+                      &lt;/div&gt;
+                      &lt;hr&gt;
+                      &lt;h2&gt;Menu:&lt;/h2&gt;
+                      &lt;hr id="lam"&gt;
+                      &lt;h3&gt;Starter&lt;/h3&gt;
+                      &lt;hr id="lam"&gt; 
+                      &lt;ul&gt;
+                        
+                        &lt;li&gt;Cheesy Cigar Roll	-	$223.00&lt;/li&gt;
+                        &lt;li&gt;Hara Bhara Kabab	-	$187.00&lt;/li&gt;
+                        &lt;li&gt;Smoked Panner Tikka 	-	$200.00&lt;/li&gt;
+                        &lt;li&gt;Cottage Cheese Platter 	-	$177.99&lt;/li&gt;
+                        
+                      &lt;/ul&gt;
+                      &lt;h3&gt;Indian&lt;/h3&gt;
+                      &lt;hr id="lam"&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;Chesse Naan - $30.66&lt;/li&gt;
+                        &lt;li&gt;Tiranga Panner - $166.66&lt;/li&gt;
+                        &lt;li&gt;Jeera Rice - $57.66&lt;/li&gt;
+                        &lt;li&gt;Dal Tadka  - $87.66&lt;/li&gt;
+                      &lt;/ul&gt;
+                      &lt;h3&gt;Biryani&lt;/h3&gt;
+                      &lt;hr id="lam"&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;Panner Tikka Biryani - $187.66&lt;/li&gt;
+                        &lt;li&gt;Chicken Biryani - $209.66&lt;/li&gt;
+                        &lt;li&gt;Vegetable Biryani - $156.66&lt;/li&gt;
+                        &lt;li&gt;Cheesse Biryani  - $172.66&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                
+                
+                &lt;!---- footer ----&gt;
+                
+                
+                  &lt;div class="footer"&gt;
+                    &lt;div class="container"&gt;
+                      &lt;div class="row"&gt;
+                        &lt;div class="footer-col-1"&gt;
+                          &lt;h3&gt;Download Our App&lt;/h3&gt;
+                          &lt;p&gt;Download App for Android and IOS mobile phone&lt;/p&gt;
+                          &lt;div class="app-logo"&gt;
+                            &lt;img src="playstore.png"&gt;
+                            &lt;img src="appstore.png"&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="footer-col-2"&gt;
+                          &lt;img src="logo.jpg" width="150px"&gt;
+                          &lt;p&gt;Our Purpose Is To Deliver Best Food At Your Door. &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class="footer-col-3"&gt;
+                          &lt;h3&gt;Usefull Links&lt;/h3&gt;
+                          &lt;ul&gt;
+                            &lt;li&gt;Coupons&lt;/li&gt;
+                            &lt;li&gt;Help And Support&lt;/li&gt;
+                            &lt;li&gt;Return Policy&lt;/li&gt;
+                            &lt;li&gt;Discounts Available&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+                        &lt;div class="footer-col-4"&gt;
+                          &lt;h3&gt;Follow us on&lt;/h3&gt;
+                          &lt;ul&gt;
+                            &lt;li&gt;Facebook&lt;/li&gt;
+                            &lt;li&gt;Twitter&lt;/li&gt;
+                            &lt;li&gt;Instagram&lt;/li&gt;
+                            &lt;li&gt;Youtube&lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;hr&gt;
+                      &lt;p class="copyright"&gt;Copyright 2020 - Food Zone&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                </code></pre>
+            </li>
+
+            <li><span id="sp">Swiggy css file</span>
+              <pre class="language-html"><code>*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+              }
+              body{
+                font-family: 'Poppins', sans-serif;
+              }
+              .header{
+                background: radial-gradient(#fff,#ffd6d6);
+              }
+              .navbar{
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                margin-left: 20px;
+              }
+              nav{
+                flex: 1;
+                text-align: center;
+              }
+              nav ul{
+                display: inline-block;
+                list-style-type: none;
+              }
+              nav ul li{
+                display: inline-block;
+                margin-right: 20px;
+              }
+              a{
+                text-decoration: none;
+                color: #555;
+                font-size: 40px;
+              }
+              p{
+                color: #555;
+              }
+              .container{
+                max-width: 1300px;
+                margin: auto;
+                padding-left: 25px;
+                padding-right: 25px;
+              }
+              .small-container{
+                height: 400px;
+                position: relative;
+              }
+              .row{
+                text-align: center;
+                margin-top: 150px;
+              }
+              #n{
+                margin-left: 50px;
+                border-radius: 40px;
+                cursor: pointer;
+              }
+              h3{
+                text-align: center;
+                margin-top: 50px;
+              }
+              .line{
+                margin-left: 500px;
+                margin-right: 500px;
+              }
+              #n2{
+                margin-top: 100px;
+                margin-left: 10px;
+              }
+              .small-container2{
+                height: 800px;
+                
+              }
+              #sp{
+                margin-left: 20px;
+                text-align: left;
+              }
+              
+              .testimonial{
+                padding-top: 0px;
+                top: 0px;
+                height: 400px;
+              }
+              .testimonial .col-3{
+                text-align: center;
+                padding: 40px 20px;
+                box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+                cursor: pointer;
+                transition: transform 0.5s;
+                background: radial-gradient(#fff,#ffd6d6);
+              }
+              .testimonial .col-3 img{
+                width: 100px;
+                margin-top: 20px;
+                border-radius: 50%;
+                height: 100px;
+              }
+              .testimonial .col-3:hover{
+                transform: translateY(-10px);
+              }
+              .btn{
+                display: inline-block;
+                background: #ff523b;
+                color: #fff;
+                padding: 8px 30px ;
+                margin: 30px 0;
+                border-radius: 30px;
+                cursor: pointer;
+                transition: background 0.5s;
+              }
+              .btn:hover{
+                background: #563434;
+              }
+              
+              /*---- footer -------*/
+              
+              
+              .footer{
+                background: #000;
+                color: #8a8a8a;
+                font-size: 14px;
+                padding: 60px 0 20px;
+              }
+              .footer p{
+                color: #8a8a8a;
+              }
+              .footer h3{
+                color: #fff;
+                margin-bottom: 20px;
+              }
+              .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+                min-width: 250px;
+                margin-bottom: 20px;
+              }
+              .footer-col-1{
+                flex-basis: 30%;
+              }
+              .footer-col-2{
+                flex: 1;
+              }
+              .footer-col-2 img{
+                width: 180px;
+                margin-bottom: 20px;
+                margin-left: 70px;
+              }
+              .footer-col-3, .footer-col-4{
+                flex-basis: 12%;
+                text-align: center;
+              }
+              ul{
+                list-style-type: none;
+              }
+              .app-logo{
+                margin-top: 20px;
+              }
+              .app-logo img{
+                width: 140px;
+                cursor: pointer;
+              }
+              .footer hr{
+                border: none;
+                background: #b5b5b5;
+                height: 1px;
+                margin: 20px 0;
+              }
+              .copyright{
+                text-align: center;
+              }
+              .menu-icon{
+                width: 28px;
+                margin-left: 20px;
+                display: none;
+              }
+              .col-2{
+                flex-basis: 50%;
+                min-width: 300px;
+                background: radial-gradient(#fff,#ffd6d6);
+              }
+              .col-2 img{
+                width: 300px;
+                padding: 50px 0;
+              }
+              .col-2 h2{
+                font-size: 50px;
+                line-height: 60px;
+                margin: 25px 0;
+              }
+              .small-container3{
+                height:1250px;
+              }
+              .btn1{
+                display: inline-block;
+                background: #ff523b;
+                color: #fff;
+                padding: 8px 30px ;
+                margin: 30px 0;
+                border-radius: 30px;
+                cursor: pointer;
+                transition: background 0.5s;
+                width: 300px;
+              }
+              .btn1:hover{
+                background: #563434;
+              }
+              #lam{
+                margin-left: 500px;
+                margin-right: 500px;
+              }
+              #txt{
+                text-align: center;
+                display: inline-block;
+                border-radius: 30px;
+                cursor: pointer;
+                height: 50px;
+                width: 300px;
+                margin-left: 515px;
+              }
+              
+              
+              
+              </code></pre>
+            </li>
+            
+            <li><span id="sp">Example</span>
+              <pre class="language-js"><code>var karma = 1;</code></pre>
+            </li>
+            
+          </ol>
+        </div>
+
+       
+      
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
