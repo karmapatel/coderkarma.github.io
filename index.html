@@ -615,8 +615,38 @@
               </code></pre>
             </li>
             
-            <li><span id="sp">Example</span>
-              <pre class="language-js"><code>var karma = 1;</code></pre>
+            <li><span id="sp">Validation C File</span>
+              <pre class="language-c"><code>#include&lt;stdio.h&gt;
+                #include&lt;time.h&gt;
+                #include&lt;windows.h&gt;
+                
+                int main(){
+                  int pass= 1477, enteredPin;
+                
+                  //header
+                  time_t now;// integer for generating time
+                  time(&now);// function for generating time
+                
+                  printf("\n");
+                  printf("\t\t\t\t\t\t%s", ctime(&now));//generating time
+                  printf("\n\t *WELCOME*");
+                
+                  //client side
+                  while(pass!=enteredPin){
+                    printf("\nEnter Password\n");
+                    scanf("%d", &enteredPin);
+                    if(enteredPin!=pass){
+                      printf("Invalid Login..");
+                      printf("\nEnter Password Again\n");
+                      scanf("%d", &enteredPin);
+                    }
+                    else{
+                      printf("Succesfull Login...");
+                    }
+                  }
+                  //client side over
+                  return 0;
+                }</code></pre>
             </li>
             
           </ol>
