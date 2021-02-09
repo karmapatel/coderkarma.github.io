@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <title>CodeWithKarma</title>
     <script src="prism.js"></script>
+    <script src="sb.js"></script>
     <link rel="stylesheet" href="prism.css">
   </head>
   <body id="h">
@@ -27,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="form.html">Form</a>
@@ -38,21 +39,16 @@
               <li class="nav-item">
                 <a class="nav-link" href="ar.html">Article</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Maker of this website
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Karma Patel</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="pr.html">My Profile</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="co.html">Contact Owner</a>
+                <a class="nav-link" href="co.html">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" autocomplete="off" name="search" id="myinput" onkeyup="searchFunction()">
+              
             </form>
           </div>
         </div>
@@ -61,8 +57,8 @@
       <!---- main ------>
 
         <div class="container">
-          <ol>
-            <li><span id="sp">html Boilerplate:</span>
+          <ul id="wrapper">
+            <li><a id="sp" href="">html Boilerplate:</a>
               <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
                 &lt;html lang="en"&gt;
                 &lt;head&gt;
@@ -75,7 +71,7 @@
                 &lt;/body&gt;
                 &lt;/html&gt;</code></pre>
             </li>
-            <li><span id="sp">Swiggy app html file</span>
+            <li><a id="sp" href="">Swiggy app html file</a>
               <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
                 &lt;html lang="en"&gt;
                 &lt;head&gt;
@@ -269,7 +265,7 @@
                 &lt;/html&gt;</code></pre>
             </li>
 
-            <li><span id="sp">Swiggy App hotel detail html file</span>
+            <li><a id="sp" href="">Swiggy App hotel detail html file</a>
               <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
                 &lt;html lang="en"&gt;
                 &lt;head&gt;
@@ -397,7 +393,7 @@
                 </code></pre>
             </li>
 
-            <li><span id="sp">Swiggy css file</span>
+            <li><a id="sp" href="">Swiggy css file</a>
               <pre class="language-html"><code>*{
                 margin: 0;
                 padding: 0;
@@ -620,7 +616,7 @@
               </code></pre>
             </li>
             
-            <li><span id="sp">Validation C File</span>
+            <li><a id="sp" href="">Validation C File</a>
               <pre class="language-c"><code>#include&lt;stdio.h&gt;
                 #include&lt;time.h&gt;
                 #include&lt;windows.h&gt;
@@ -654,7 +650,7 @@
                 }</code></pre>
             </li>
             
-          </ol>
+          </ul>
         </div>
 
        
