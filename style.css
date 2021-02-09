@@ -17,6 +17,7 @@
 }
 #sp{
    color: white;
+   text-decoration: none;
 }
 #py{
     width: 200px;
@@ -29,4 +30,15 @@
     margin-top: 10px;
     width: 200px;
     height: 200px;
+}
+#pr-pic{
+    width: 300px;
+    height: 375px;
+    margin-left: 500px;
+}
+#line-profile{
+    line-height: 500px;
+}
+.info-area{
+    margin-left: 10px;
 }
